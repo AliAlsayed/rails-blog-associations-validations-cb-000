@@ -5,7 +5,7 @@
   <%= @post.name %>
 </p>
 
-<% @post.tags.each |tag| %>
+<% @post.tags.each do |tag| %>
   <p><%= tag.name %></p>
 <% end %>
 
