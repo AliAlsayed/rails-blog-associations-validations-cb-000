@@ -21,7 +21,7 @@
     <%= f.text_area :content %><br>
   </div>
 
-  <%= f.collection_check_boxes :tag_ids, Tag.all, :id %>
+  <%= f.collection_check_boxes :tag_ids, Tag.all, :id, :tags %>
 
   <div class="actions">
     <%= f.submit %>
